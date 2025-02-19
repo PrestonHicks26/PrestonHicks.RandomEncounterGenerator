@@ -1,0 +1,19 @@
+{
+    "ID": "Hostile",
+    "table": [
+        {
+            "key": "1",
+            "value": "Soldiers",
+            "tableLink": null
+        },
+        {
+            "key": "2,3",
+            "value": "Wildlife",
+            "tableLink": {
+                "forest": "Forest Wildlife",
+                "mountain": "Mountain Wildlife"
+            }
+        }
+    ]
+
+}
