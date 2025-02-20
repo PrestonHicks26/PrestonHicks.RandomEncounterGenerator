@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestonHicks.RandomEncounterGenerator", "PrestonHicks.RandomEncounterGenerator.csproj", "{9B136CA0-976B-4819-A7AC-19E69D258835}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrestonHicks.RandomEncounterGenerator", "PrestonHicks.RandomEncounterGenerator\PrestonHicks.RandomEncounterGenerator.csproj", "{FA674BBD-5DB5-46E4-865F-EC08843B5844}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B136CA0-976B-4819-A7AC-19E69D258835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B136CA0-976B-4819-A7AC-19E69D258835}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B136CA0-976B-4819-A7AC-19E69D258835}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B136CA0-976B-4819-A7AC-19E69D258835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA674BBD-5DB5-46E4-865F-EC08843B5844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA674BBD-5DB5-46E4-865F-EC08843B5844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA674BBD-5DB5-46E4-865F-EC08843B5844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA674BBD-5DB5-46E4-865F-EC08843B5844}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

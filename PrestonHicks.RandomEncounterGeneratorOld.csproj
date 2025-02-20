@@ -49,18 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Generator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Encounter.cs" />
-    <Compile Include="Models\EnvironmentSpecificEncounter.cs" />
-    <Compile Include="Models\GeneratorSettings.cs" />
-    <Compile Include="Models\IEncounter.cs" />
-    <Compile Include="Models\EncounterTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -75,12 +69,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Data\Sample_ForestWildlife.json" />
-    <None Include="Data\Sample_Hostile.json" />
-    <None Include="Data\Sample_Flora.json" />
-    <None Include="Data\SampleGeneratorSettings.json" />
-    <None Include="Data\SampleRegion_TheNorth.json" />
-    <None Include="Data\Sample_MountainWildlife.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
