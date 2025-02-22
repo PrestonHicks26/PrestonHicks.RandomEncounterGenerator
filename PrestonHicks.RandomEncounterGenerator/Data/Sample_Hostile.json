@@ -1,18 +1,25 @@
 {
-    "ID": "Hostile",
-    "table": [
+    "Id": "Hostile",
+    "Table": [
         {
-            "key": "1",
-            "value": "Soldiers",
-            "tableLink": null
+            "SuccessRange": [ 1 ],
+            "Description": "Soldiers",
+            "Link": {
+                "Default": "Northern Soldiers"
+            }
         },
         {
-            "key": "2,3",
-            "value": "Wildlife",
-            "tableLink": {
-                "forest": "Forest Wildlife",
-                "mountain": "Mountain Wildlife"
+            "SuccessRange": [ 2, 4 ],
+            "Description": "Wildlife",
+            "Link": {
+                "Forest": "Forest Wildlife",
+                "Mountain": "Mountain Wildlife"
             }
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Bob",
+            "Link": null
         }
     ]
 

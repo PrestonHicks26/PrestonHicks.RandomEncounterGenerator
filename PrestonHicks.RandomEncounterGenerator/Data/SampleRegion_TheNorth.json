@@ -2,14 +2,14 @@
     "Id": "The North",
     "Table": [
         {
-            "key": "1",
-            "value": "Flora",
-            "tableLink": "Flora"
+            "SuccessRange": [1],
+            "Description": "Flora",
+            "Link": "Flora"
         },
         {
-            "key": "2,3",
-            "value": "Hostile",
-            "tableLink": "Fauna"
+            "SuccessRange": [2,3],
+            "Description": "Hostile",
+            "Link": "Fauna"
         }
     ]
 
