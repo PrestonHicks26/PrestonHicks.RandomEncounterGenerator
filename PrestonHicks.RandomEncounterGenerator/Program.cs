@@ -5,20 +5,22 @@ using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.IO;
-using PrestonHicks.RandomEncounterGenerator.Models;
+using PrestonHicks.RandomEncounterGenerator;
 
 
-var LoadedTable = new EncounterTable();
-using (StreamReader r = new StreamReader(@"../../../Data/Sample_Hostile.json"))
-{
-    string json = r.ReadToEnd();
-    LoadedTable = JsonConvert.DeserializeObject<EncounterTable>(json);
-}
-var value = LoadedTable.Table[0].Link.GetType().Name;
-var value2 = LoadedTable.Table[1].Link.GetType().Name;
-var value3 = LoadedTable.Table[1].Link.GetType().GetFields();
+var Loader = new DataLoader();
+//string[] files = Directory.GetFiles(@"../../../Data", "*", SearchOption.AllDirectories);
+//var LoadedTable = new EncounterTable();
+//using (StreamReader r = new StreamReader(files[2]))
+//{
+//    string json = r.ReadToEnd();
+//    LoadedTable = JsonConvert.DeserializeObject<EncounterTable>(json);
+//}
+//var value = LoadedTable.Table[0].Link.GetType().Name;
+//var value2 = LoadedTable.Table[1].Link.GetType().Name;
+//var value3 = LoadedTable.Table[1].Link.GetType().GetFields();
 //var forest = LoadedTable.Table[1].Link.GetValue("forest");
-Console.WriteLine(LoadedTable);
+//Console.WriteLine(LoadedTable);
 //var encounters = new List<IEncounter>();
 //encounters.Add(new Encounter());
 //encounters.Add(new EnvironmentSpecificEncounter());

@@ -1,0 +1,20 @@
+{
+    "Id": "The North",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Flora",
+            "Link": {
+                "Default": "Flora"
+            }
+        },
+        {
+            "SuccessRange": [ 2, 3 ],
+            "Description": "Hostile",
+            "Link": {
+                "Default": "Fauna"
+            }
+        }
+    ]
+
+}

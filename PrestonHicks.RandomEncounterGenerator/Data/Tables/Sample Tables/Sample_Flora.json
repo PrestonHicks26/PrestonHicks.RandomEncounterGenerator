@@ -1,0 +1,15 @@
+{
+    "Id": "Flora",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Grass",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2, 3 ],
+            "Description": "Flower",
+            "Link": null
+        }
+    ]
+}

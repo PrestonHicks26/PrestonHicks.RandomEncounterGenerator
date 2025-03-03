@@ -1,0 +1,16 @@
+﻿{
+    "Id": "Mountain Wildlife",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Dire Hawk",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2, 3 ],
+            "Description": "Cave Bear",
+            "Link": null
+        }
+    ]
+
+}

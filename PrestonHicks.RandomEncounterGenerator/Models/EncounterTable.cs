@@ -10,45 +10,6 @@ namespace PrestonHicks.RandomEncounterGenerator.Models
     {
         public string Id { get; set; }
         private List<Encounter> _table;
-        //public List<Encounter> Table
-        //{
-        //    set
-        //    {
-        //        var FinalList = new List<Encounter>();
-        //        FinalList.AddRange(new Encounter[value.Count]);
-        //        foreach (var Encounter in value)
-        //        {
-        //            var SuccessRangeArray = Encounter.SuccessRange.Split(',');
-        //            foreach (var number in SuccessRangeArray)
-        //            {
-        //                int ConvertedIndex = 0;
-        //                if (Int32.TryParse(number, out ConvertedIndex))
-        //                {
-        //                    FinalList[ConvertedIndex - 1] = Encounter;
-        //                }
-        //                else
-        //                {
-        //                    throw new Exception("Invalid SuccessRange in table: " + Id);
-        //                }
-
-        //            }
-
-        //        }
-        //        var a = FinalList.Contains(null);
-        //        if (FinalList.Count != value.Count || FinalList.Contains(null))
-        //        {
-        //            throw new Exception("Success Values are invalid");
-        //        }
-        //        else
-        //        {
-        //            _table = FinalList;
-        //        }
-        //    }
-        //    get
-        //    {
-        //        return _table;
-        //    }
-        //}
         public List<Encounter> Table
         {
             set
