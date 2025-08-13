@@ -5,26 +5,74 @@ using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.IO;
+using System.Linq;
 using PrestonHicks.RandomEncounterGenerator;
 
+// Program startup code
 
-var Loader = new DataLoader();
-//string[] files = Directory.GetFiles(@"../../../Data", "*", SearchOption.AllDirectories);
-//var LoadedTable = new EncounterTable();
-//using (StreamReader r = new StreamReader(files[2]))
+var DataLoader = new DataLoader();
+// UI while loop
+// get generator parameters from user and DataLoader
+// create new generator
+// display generated results to user
+// ask if user would like to generate another set of encounters
+Console.WriteLine("Welcome to the Encounter Generator!");
+var Continue = "y";
+while (Continue == "y")
+{
+    var ResponseParameters = "";
+    List<int> RollsList = new List<int>();
+    Console.WriteLine("Please enter generation parameters in the format \"region,environment,manual role?,number of encounters\"");
+    ResponseParameters = Console.ReadLine();
+    if (ResponseParameters == null) continue;
+    string[] ResponseParametersArray = ResponseParameters.Split(",");
+    var Region = ResponseParametersArray[0];
+    var Environment = ResponseParametersArray[1];
+    var ManualRole = bool.Parse(ResponseParametersArray[2]);
+    var NumberOfEncounters = int.Parse(ResponseParametersArray[3]);
+    if (ManualRole)
+    {
+
+        while (true)
+        {
+            Console.WriteLine("Please enter numbers rolled in the format \"#,#,#\"");
+            var ResponseRolls = Console.ReadLine();
+            if (ResponseRolls == null) continue;
+            var ResponseRollsArray = ResponseRolls.Split(",");
+            if (ResponseRollsArray.Length != NumberOfEncounters) continue;
+            foreach (var Roll in ResponseRollsArray)
+            {
+                RollsList.Add(int.Parse(Roll));
+            }
+            break;
+        }
+        foreach (int Roll in RollsList)
+        {
+            var Generator = new Generator(DataLoader, Region, Roll, Environment);
+        }
+    }
+    else
+    {
+        for(int i = 0; i < NumberOfEncounters; i++)
+        {
+            var Generator = new Generator(DataLoader, Region, null, Environment);
+        }
+    }
+    
+    Console.WriteLine("Would you like to generate another set of encounters? (y/n)");
+    Continue = Console.ReadLine();
+}
+
+
+
+
+
+// temp debug
+//var DataLoader = new DataLoader();
+//for (int i = 0; i < 20; i++)
 //{
-//    string json = r.ReadToEnd();
-//    LoadedTable = JsonConvert.DeserializeObject<EncounterTable>(json);
+//    var Generator = new Generator(DataLoader, "The North", null, null);
 //}
-//var value = LoadedTable.Table[0].Link.GetType().Name;
-//var value2 = LoadedTable.Table[1].Link.GetType().Name;
-//var value3 = LoadedTable.Table[1].Link.GetType().GetFields();
-//var forest = LoadedTable.Table[1].Link.GetValue("forest");
-//Console.WriteLine(LoadedTable);
-//var encounters = new List<IEncounter>();
-//encounters.Add(new Encounter());
-//encounters.Add(new EnvironmentSpecificEncounter());
-//var table = new EncounterTable("id", encounters);
-//var en = (EnvironmentSpecificEncounter)table.Table[1];
-//en.Environments = new Dictionary<string, string>();
-Console.ReadLine();
+
+
+
