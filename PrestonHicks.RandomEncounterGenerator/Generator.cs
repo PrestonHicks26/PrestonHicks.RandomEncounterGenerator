@@ -26,7 +26,7 @@ namespace PrestonHicks.RandomEncounterGenerator
             {
                 var rand = new Random();
                 _initialRoleValue = rand.Next(1,_regionTable.Table.Count + 1);
-                Console.WriteLine("Random Role: " + _initialRoleValue);0
+                Console.WriteLine("Random Role: " + _initialRoleValue);
             }
             GenerateEncounter(_initialRoleValue, _regionTable);
         }
