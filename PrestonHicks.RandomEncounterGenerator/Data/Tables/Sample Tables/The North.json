@@ -2,19 +2,19 @@
     "Id": "The North",
     "Table": [
         {
-            "SuccessRange": [ 1 ],
+            "SuccessRange": [ 1,4 ],
             "Description": "Flora",
             "Link": {
-                "Default": "Flora"
+                "Forest": "Forest Flora",
+                "Mountain": "Mountain Flora"
             }
         },
         {
-            "SuccessRange": [ 2, 3 ],
+            "SuccessRange": [ 5, 6 ],
             "Description": "Hostile",
             "Link": {
-                "Default": "Fauna"
+                "Default": "Hostile"
             }
         }
     ]
-
 }

@@ -9,36 +9,61 @@ namespace PrestonHicks.RandomEncounterGenerator
 {
     public class Generator
     {
-        private int? _initialRoleValue;
-        private string? _environment;
+        private int _initialRollValue;
+        private string _environment;
         private DataLoader _dataLoader;
         private EncounterTable _regionTable;
-        public string ResultsRolled = ""; // list of tables and result from each table
-        public string EncounterRolled = ""; // value of 'description' of final table
-        public Generator(DataLoader dataLoader, string region, int? roleValue, string? environment)
+        private Random _rand = new Random();
+
+        private string _resultsRolled = "";
+        /// <summary>
+        /// List of tables and results from each table
+        /// </summary>
+        public string ResultsRolled
         {
-            _initialRoleValue = roleValue;
+            get { return _resultsRolled; }
+        }
+
+        private string _encounterRolled = "";
+        /// <summary>
+        /// Description value of encounter of final table
+        /// </summary>
+        public string EncounterRolled
+        {
+            get { return _encounterRolled; } 
+        }
+
+        public Generator(DataLoader dataLoader, string region, string environment, int? regionRollValue)
+        {
+            _initialRollValue = regionRollValue ?? -1;
             _environment = environment;
             _dataLoader = dataLoader;
             _regionTable = _dataLoader.EncounterTableDictionary[region];
-            Console.WriteLine("generator created with parameters: " + region + environment + roleValue);
-            if(_initialRoleValue == null)
+            Console.WriteLine("generator created with parameters: " + region + environment + regionRollValue);
+            if(_initialRollValue == -1)
             {
-                var rand = new Random();
-                _initialRoleValue = rand.Next(1,_regionTable.Table.Count + 1);
-                Console.WriteLine("Random Role: " + _initialRoleValue);
+                _initialRollValue = _rand.Next(_regionTable.Table.Count);
+                Console.WriteLine("Random Roll: " + _initialRollValue);
             }
-            GenerateEncounter(_initialRoleValue, _regionTable);
+            GenerateEncounter(_initialRollValue, _regionTable);
         }
 
-        public void GenerateEncounter(int? rollValue, EncounterTable encounterTable)
+        public void GenerateEncounter(int rollValue, EncounterTable encounterTable)
         {
-            // Add table id to ResultsRolled
-            // Select encounter from current table given rolled value
-            // Add encounter description to ResultsRolled
-            // Select link given environment
-            // Generate roll given link
-            // if link exists, call GenerateEncounter again with value of next table and value of roll
+            var RolledEncounter = encounterTable.Table[rollValue];
+            if(RolledEncounter.Link != null)
+            {
+                string? value = null;
+                var Link = RolledEncounter.Link.TryGetValue("Default", out value) ? value : RolledEncounter.Link[_environment];
+                var LinkedTable = _dataLoader.EncounterTableDictionary[Link];
+                _resultsRolled += $"Rolled a {rollValue + 1}, resulting in a {RolledEncounter.Description} Encounter, linking to {Link} table.\n";
+                var LinkedTableRoll = _rand.Next(LinkedTable.Table.Count);
+                GenerateEncounter(LinkedTableRoll, LinkedTable);
+            }
+            else
+            {
+                _encounterRolled = $"Rolled a {rollValue + 1}, resulting in:\n****{RolledEncounter.Description}****\n";
+            }
         }
     }
 }

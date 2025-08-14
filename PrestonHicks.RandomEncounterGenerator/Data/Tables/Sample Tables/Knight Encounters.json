@@ -1,0 +1,40 @@
+{
+    "Id": "Knight Encounters",
+    "Table": [
+        {
+            "SuccessRange": [ 1,2 ],
+            "Description": "1 CR1 Knight",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3,4 ],
+            "Description": "2 CR1 Knights and 5 CR1/4 Knaves",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5,10 ],
+            "Description": "1 General, 1 Knight, and 5 Knaves",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 11,14 ],
+            "Description": "1 General, 1 Knight, and 3 Horsemen",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 15,17 ],
+            "Description": "CR 5 knight",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 18,19 ],
+            "Description": "CR 10 knight",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 20 ],
+            "Description": "CR 20 knight",
+            "Link": null
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "Id": "Mountain Flora",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Cool moss",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2, 3 ],
+            "Description": "Patch of heather",
+            "Link": null
+        }
+    ]
+}

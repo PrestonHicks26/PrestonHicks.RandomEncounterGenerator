@@ -1,16 +1,15 @@
-﻿{
-    "Id": "Mountain Wildlife",
+{
+    "Id": "Forest Flora",
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Dire Hawk",
+            "Description": "Big tree",
             "Link": null
         },
         {
             "SuccessRange": [ 2, 3 ],
-            "Description": "Cave Bear",
+            "Description": "Sticky vines",
             "Link": null
         }
     ]
-
 }

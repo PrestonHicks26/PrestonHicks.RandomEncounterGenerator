@@ -1,0 +1,4 @@
+The North,Mountain,true,1
+The North,Forest,true,1
+The North,Mountain,false,1
+The North,Forest,false,1

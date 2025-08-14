@@ -1,0 +1,17 @@
+{
+    "Id": "Northern Soldiers",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Knights",
+            "Link": {
+                "Default": "Knight Encounters"
+            }
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Archers",
+            "Link": null
+        }
+    ]
+}
