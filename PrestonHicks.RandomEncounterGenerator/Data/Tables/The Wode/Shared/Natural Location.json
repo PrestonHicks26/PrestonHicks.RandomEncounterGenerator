@@ -1,0 +1,25 @@
+{
+    "Id": "Natural Location",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Soldiers",
+            "Link": {
+                "Default": "Northern Soldiers"
+            }
+        },
+        {
+            "SuccessRange": [ 2, 4 ],
+            "Description": "Wildlife",
+            "Link": {
+                "Forest": "Forest Wildlife",
+                "Mountain": "Mountain Wildlife"
+            }
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Bob",
+            "Link": null
+        }
+    ]
+}

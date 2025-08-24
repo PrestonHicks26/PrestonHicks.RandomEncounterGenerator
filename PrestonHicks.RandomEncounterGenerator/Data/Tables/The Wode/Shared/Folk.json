@@ -1,0 +1,33 @@
+{
+    "Id": "Folk",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Signs of Passage",
+            "Link": {
+                "Default": "Signs of Passage"
+            }
+        },
+        {
+            "SuccessRange": [ 2,3 ],
+            "Description": "Faction Member",
+            "Link": {
+                "Default": "Faction Member"
+            }
+        },
+        {
+            "SuccessRange": [ 4,5 ],
+            "Description": "Wode Native",
+            "Link": {
+                "Default": "Wode Native"
+            }
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Wode Outsider",
+            "Link": {
+                "Default": "Wode Outsider"
+            }
+        }
+    ]
+}

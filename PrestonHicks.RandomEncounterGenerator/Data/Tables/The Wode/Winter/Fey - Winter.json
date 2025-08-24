@@ -1,0 +1,27 @@
+{
+    "Id": "Fey - Winter",
+    "Table": [
+        {
+            "SuccessRange": [ 1, 5 ],
+            "Description": "Fey 1",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6, 10 ],
+            "Description": "Fey 2",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 11, 15 ],
+            "Description": "Fey 3",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 16, 20 ],
+            "Description": "Spring Fey",
+            "Link": {
+                "Default": "Fey - Spring"
+            }
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "Id": "Flora and Fauna - Winter",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Swarm of carion beetles (non-aggressive)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Swarm of carion beetles\n - aggressively try to eat any dead matter on players.\n - Can be distracted by throwing rations, as they will not eat any live creature)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Cat - white or grey",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Emaciated but oddly healthy dog",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Unnerving bird",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Animal or plant that seems incredibly familiar, but you can't quite place where from...",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Soul fish",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "Generic Flora/Fauna",
+            "Link": {
+                "Default": "Flora and Fauna"
+            }
+        }
+    ]
+}

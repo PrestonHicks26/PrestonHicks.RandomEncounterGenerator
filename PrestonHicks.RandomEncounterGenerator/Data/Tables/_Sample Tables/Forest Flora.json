@@ -10,6 +10,11 @@
             "SuccessRange": [ 2, 3 ],
             "Description": "Sticky vines",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Roll on External Table:\ngoogle.com",
+            "Link": null
         }
     ]
 }

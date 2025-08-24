@@ -1,0 +1,10 @@
+{
+    "Id": "Traps and Hazards - Summer",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Spider Water (See notes in Wode Encounters.txt)",
+            "Link": null
+        }
+    ]
+}

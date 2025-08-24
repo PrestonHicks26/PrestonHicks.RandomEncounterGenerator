@@ -1,0 +1,20 @@
+{
+    "Id": "Traps and Hazards",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Water (Supply) Nymph\nA nymph was booted from her home, and has taken up residence in the party's water supply. If they try to drink from her \"home\" she will get revenge. She is willing to come to a deal, for instance leaving their water if they kill the fey that stole her home.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Curse of the Stone-Pixie (See notes in Wode Encounters.txt)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Magic Parasite Infestation (See notes in Wode Encounters.txt)",
+            "Link": null
+        }
+    ]
+}

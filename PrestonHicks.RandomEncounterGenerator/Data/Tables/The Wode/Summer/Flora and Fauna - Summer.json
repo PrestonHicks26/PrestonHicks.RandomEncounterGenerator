@@ -1,0 +1,42 @@
+{
+    "Id": "Flora and Fauna - Summer",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Flower that makes you feel at ease when you smell it",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Group of birds singing together in a way that almost sounds like a composed symphony",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Dancing vines",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Irresistable fruit",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Dog that you Must Pet",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Cat that mischievously harrasses you until you feed it",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Generic Flora/Fauna",
+            "Link": {
+                "Default": "Flora and Fauna"
+            }
+        }
+    ]
+}

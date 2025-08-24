@@ -1,0 +1,27 @@
+{
+    "Id": "Fey - Summer",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Lord Daliath and The Dream Garden (See notes in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "The Firinth (See notes in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "The Laith - Corrupted Spirit of Fortuitous Rescue (See notes in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Spring Fey",
+            "Link": {
+                "Default": "Fey - Spring"
+            }
+        }
+    ]
+}

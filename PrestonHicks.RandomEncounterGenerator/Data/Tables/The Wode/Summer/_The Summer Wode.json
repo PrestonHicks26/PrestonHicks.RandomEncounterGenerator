@@ -1,0 +1,68 @@
+{
+    "Id": "The Summer Wode",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Folk",
+            "Link": {
+                "Default": "Folk"
+            }
+        },
+        {
+            "SuccessRange": [ 2,3 ],
+            "Description": "Fey",
+            "Link": {
+                "Default": "Fey - Summer"
+            }
+        },
+        {
+            "SuccessRange": [ 4,5 ],
+            "Description": "Beasts and Monsters",
+            "Link": {
+                "Default": "Beasts and Monsters"
+            }
+        },
+        {
+            "SuccessRange": [ 6,8 ],
+            "Description": "Flora/Fauna",
+            "Link": {
+                "Default": "Flora and Fauna"
+            }
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Structure",
+            "Link": {
+                "Default": "Structure"
+            }
+        },
+        {
+            "SuccessRange": [ 10,12 ],
+            "Description": "Trap/Hazard",
+            "Link": {
+                "Default": "Traps and Hazards - Summer"
+            }
+        },
+        {
+            "SuccessRange": [ 14,16 ],
+            "Description": "Natural Location",
+            "Link": {
+                "Default": "Natural Location - Summer"
+            }
+        },
+        {
+            "SuccessRange": [ 17 ],
+            "Description": "Signs of Destruction",
+            "Link": {
+                "Default": "Signs of Destruction - Summer"
+            }
+        },
+        {
+            "SuccessRange": [ 18,20 ],
+            "Description": "Misc.",
+            "Link": {
+                "Default": "Misc."
+            }
+        }
+    ]
+}

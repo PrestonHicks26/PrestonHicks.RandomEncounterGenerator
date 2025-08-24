@@ -1,0 +1,68 @@
+{
+    "Id": "The Winter Wode",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Folk",
+            "Link": {
+                "Default": "Folk"
+            }
+        },
+        {
+            "SuccessRange": [ 2, 3 ],
+            "Description": "Fey",
+            "Link": {
+                "Default": "Fey - Winter"
+            }
+        },
+        {
+            "SuccessRange": [ 4, 5 ],
+            "Description": "Beasts and Monsters",
+            "Link": {
+                "Default": "Beasts and Monsters"
+            }
+        },
+        {
+            "SuccessRange": [ 6, 8 ],
+            "Description": "Flora/Fauna",
+            "Link": {
+                "Default": "Flora and Fauna"
+            }
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Structure",
+            "Link": {
+                "Default": "Structure"
+            }
+        },
+        {
+            "SuccessRange": [ 10, 12 ],
+            "Description": "Trap/Hazard",
+            "Link": {
+                "Default": "Traps and Hazards - Winter"
+            }
+        },
+        {
+            "SuccessRange": [ 15, 17 ],
+            "Description": "Natural Location",
+            "Link": {
+                "Default": "Natural Location - Winter"
+            }
+        },
+        {
+            "SuccessRange": [ 18 ],
+            "Description": "Signs of Destruction",
+            "Link": {
+                "Default": "Signs of Destruction - Winter"
+            }
+        },
+        {
+            "SuccessRange": [ 19, 20 ],
+            "Description": "Misc.",
+            "Link": {
+                "Default": "Misc."
+            }
+        }
+    ]
+}
