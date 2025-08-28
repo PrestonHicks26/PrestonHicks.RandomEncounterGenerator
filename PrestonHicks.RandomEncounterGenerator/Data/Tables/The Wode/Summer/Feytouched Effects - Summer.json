@@ -3,22 +3,37 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
-            "Link": {
-                "Default": "Northern Soldiers"
-            }
+            "Description": "The creature is feytouched, and has the Harmless Visage trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
         },
         {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
-            "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
-            }
+            "SuccessRange": [ 2 ],
+            "Description": "The creature is feytouched, and has the Summer Stasis trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "The creature is feytouched, and has the Bacchanal Hunger trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "The creature is feytouched, and has the Overflowing With Life trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
         },
         {
             "SuccessRange": [ 5 ],
-            "Description": "Bob",
+            "Description": "The creature is feytouched, and has the One With Nature trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "The creature is feytouched, and has the Life-Giver trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "The creature is feytouched, and has the Sanguine trait (See Feytouched Monsters box in Fey.canvas)",
             "Link": null
         }
     ]

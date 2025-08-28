@@ -3,22 +3,7 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
-            "Link": {
-                "Default": "Northern Soldiers"
-            }
-        },
-        {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
-            "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
-            }
-        },
-        {
-            "SuccessRange": [ 5 ],
-            "Description": "Bob",
+            "Description": "Artist inspired by the wode - ex. religious devotion to fey, seeking out new pigments, etc.",
             "Link": null
         }
     ]

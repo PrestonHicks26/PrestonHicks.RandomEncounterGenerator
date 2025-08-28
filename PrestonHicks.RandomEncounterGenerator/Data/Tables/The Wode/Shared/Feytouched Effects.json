@@ -3,22 +3,52 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
-            "Link": {
-                "Default": "Northern Soldiers"
-            }
+            "Description": "The creature is feytouched, and has the Hideous Laughter trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
         },
         {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
-            "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
-            }
+            "SuccessRange": [ 2 ],
+            "Description": "The creature is feytouched, and has the Feymind trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "The creature is feytouched, and has the Fey Charm trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "The creature is feytouched, and has the Fey-Pet trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
         },
         {
             "SuccessRange": [ 5 ],
-            "Description": "Bob",
+            "Description": "The creature is feytouched, and has the Unable to Die trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "The creature is feytouched, and has the Biggus Boyus trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "The creature is feytouched, and has the Bonus Tail trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "The creature is feytouched, and has the Winged trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "The creature is feytouched, and has the Hag's Pet trait (See Feytouched Monsters box in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 10 ],
+            "Description": "The creature is feytouched, and has the Talented trait (See Feytouched Monsters box in Fey.canvas)",
             "Link": null
         }
     ]

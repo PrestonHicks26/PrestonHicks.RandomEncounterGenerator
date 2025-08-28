@@ -5,6 +5,11 @@
             "SuccessRange": [ 1 ],
             "Description": "Tiefling Clan Ambush\n - Ambush players, who accidentally wandered into their territory\n - aim to take them prisoner and get questions answered\n - one wants them keps alive, another wants them executed just in case",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "The Feykiller Heresy, aka The Cult of Geni\n - If in Winter Wode, actively patrolling for expeditioners, will attack players on sight\n - If in Summer Wode, got lost, and may or may not attack depending on situation",
+            "Link": null
         }
     ]
 }
