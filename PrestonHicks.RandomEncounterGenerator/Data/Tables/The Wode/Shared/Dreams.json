@@ -1,0 +1,35 @@
+{
+    "Id": "Dreams",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "One person in the party dreams of a journey related to the particular Wode's associations (life, death, pleasure, pain, mourning, ambition, glee,etc.)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "One person in the party has a dream which is connected to their class in some way - etc. Marcel has dream related to spirits due to his zeal/connection to afterlife.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "The party has a group nightmare in which they are forced to fight a likely unwinnable fight against an enemy that they fear. This may include enemies they have not yet fought. They will experience the enemy's real abilities and real stats. The party gets experience as if they had fought a real fight. If they lose, they wake with a level of exhaustion. If they win, they wake with 10 temp HP each.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Two people in the party share a dream in which they have a horrible argument. In this dream, the worst traits of each party member are heightened to an extreme. Both characters remember the details of the dream when they wake up",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "One person in the party shares a dream with someone important from their past. This can include someone who has died within the past week. The character can be either player's choice, or DM's choice. Both characters remember the details of the dream when they wake up",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "One person in the party receives a premonition of a possible future",
+            "Link": null
+        }
+    ]
+}

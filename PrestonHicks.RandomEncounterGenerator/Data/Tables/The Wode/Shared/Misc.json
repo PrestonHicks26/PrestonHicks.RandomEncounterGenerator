@@ -3,23 +3,45 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
+            "Description": "Random common magic item: https://donjon.bin.sh/5e/magic_items",
             "Link": {
-                "Default": "Northern Soldiers"
+                "Default": null
             }
         },
         {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
+            "SuccessRange": [ 2 ],
+            "Description": "Random mini dungeon: https://www.drivethrurpg.com/en/browse?keyword=Two%20page%20mini%20delve&keywords=Two%20page%20mini%20delve&x=31&y=6&author=&artist=&pfrom=&pto=",
             "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
+                "Default": null
+            }
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Random Trinket: https://dnd5e.wikidot.com/trinkets",
+            "Link": {
+                "Default": null
+            }
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Significant Date",
+            "Link": {
+                "Default": "Significant Date"
             }
         },
         {
             "SuccessRange": [ 5 ],
-            "Description": "Bob",
-            "Link": null
+            "Description": "Conversation",
+            "Link": {
+                "Default": "Conversation"
+            }
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Dreams",
+            "Link": {
+                "Default": "Dreams"
+            }
         }
     ]
 }

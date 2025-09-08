@@ -1,0 +1,55 @@
+{
+    "Id": "D10",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Generic roll of 1",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Generic roll of 2",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Generic roll of 3",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Generic roll of 4",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Generic roll of 5",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Generic roll of 6",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Generic roll of 7",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "Generic roll of 8",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Generic roll of 8",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 10 ],
+            "Description": "Generic roll of 8",
+            "Link": null
+        }
+    ]
+}

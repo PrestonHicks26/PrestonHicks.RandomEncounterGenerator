@@ -3,22 +3,7 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
-            "Link": {
-                "Default": "Northern Soldiers"
-            }
-        },
-        {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
-            "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
-            }
-        },
-        {
-            "SuccessRange": [ 5 ],
-            "Description": "Bob",
+            "Description": "Soulgem Field - improvise effect on players' souls",
             "Link": null
         }
     ]

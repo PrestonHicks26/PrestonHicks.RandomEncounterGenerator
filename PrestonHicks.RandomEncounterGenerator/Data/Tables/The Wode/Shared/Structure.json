@@ -3,22 +3,7 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
-            "Link": {
-                "Default": "Northern Soldiers"
-            }
-        },
-        {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
-            "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
-            }
-        },
-        {
-            "SuccessRange": [ 5 ],
-            "Description": "Bob",
+            "Description": "Lifework Hall of a Pre-Lumian elf - a large, temple-like structure created by an individual to house their life's work, whether that be paintings, lore, music, etc. The greatest of these halls contained millenia worth of art, all created by the same elf.",
             "Link": null
         }
     ]

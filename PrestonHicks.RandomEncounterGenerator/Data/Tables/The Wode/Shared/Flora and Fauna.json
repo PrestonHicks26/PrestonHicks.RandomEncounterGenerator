@@ -3,22 +3,57 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
-            "Link": {
-                "Default": "Northern Soldiers"
-            }
+            "Description": "Yellow flower with dozens of narrow petals which, when eaten, grants a supernatural connection to wildlife. For 1d4 days, you have a + 4 to animal handling checks.",
+            "Link": null
         },
         {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
-            "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
-            }
+            "SuccessRange": [ 2 ],
+            "Description": "A shrub with tan, rubbery leaves which, when eaten, causes a fully formed pinkie finger grows somewhere on your body over the course of the next day.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "A purple vine that lets out a sickly sweet smell which, when eaten, causes you to emit the same smell for 1d4 days. You attract swarms of insects, and gain a + 4 on animal handling/charisma checks against insectoids (depending on sapience). However, you also have disadvantage on charisma checks against Folk with a sense of smell.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "A fruit which looks like a perfect specimen of some mundane fruit. When eaten, it tastes fantastic, but causes you to throw up repeatedly over the next day. Your ration needs double and you gain the Poisoned condition over the next day.",
+            "Link": null
         },
         {
             "SuccessRange": [ 5 ],
-            "Description": "Bob",
+            "Description": "A bulbous, warty melon which, when eaten, causes you to grow a tail, granting the 'Bonus Tail' feytouched trait. You lose this trait the first time you lost the tail.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "A fruit which looks like a perfect specimen of some mundane fruit. When eaten it is bizarrely filling, allowing you to not eat rations for the next 1d4 days.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "A small shrub with a fragrant, rosemary-like smell, whose leaves are speckled with shimmering, multicolored flakes. Roll a random attribute. This attribute is +2 for the next 1d4 days.",
+            "Link": "D6"
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "Bizarre/interesting plants relevant to subregion of Wode",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Bizarre/interesting animals relevant to subregion of Wode",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 10 ],
+            "Description": "Animated, but harmless, tree",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 11 ],
+            "Description": "Sentient, but harmless plant",
             "Link": null
         }
     ]
