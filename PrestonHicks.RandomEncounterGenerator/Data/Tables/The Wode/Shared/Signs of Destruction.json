@@ -5,6 +5,21 @@
             "SuccessRange": [ 1 ],
             "Description": "Corpses of explorers who suffered some terrible fate. They carry a half-destroyed map",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Ruined structure/village",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Aftermath of ancient massacre of Twilight Elves",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Aftermath of pre-Lumian massacre",
+            "Link": null
         }
     ]
 }

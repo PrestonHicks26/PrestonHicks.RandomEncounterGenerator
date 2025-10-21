@@ -3,22 +3,17 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
-            "Link": {
-                "Default": "Northern Soldiers"
-            }
+            "Description": "Garden of creatures preserved as statues",
+            "Link": null
         },
         {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
-            "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
-            }
+            "SuccessRange": [ 2 ],
+            "Description": "Person killed by a fey prank",
+            "Link": null
         },
         {
-            "SuccessRange": [ 5 ],
-            "Description": "Bob",
+            "SuccessRange": [ 3 ],
+            "Description": "Hellfire-burned clearing: Cleared by devil remnants long ago, still burning with their fire",
             "Link": null
         }
     ]

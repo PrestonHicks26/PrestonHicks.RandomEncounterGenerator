@@ -3,23 +3,38 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
-            "Link": {
-                "Default": "Northern Soldiers"
-            }
+            "Description": "Clothing",
+            "Link": null
         },
         {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
-            "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
-            }
+            "SuccessRange": [ 2 ],
+            "Description": "Footprints",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Trampled flora",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Dead fey",
+            "Link": null
         },
         {
             "SuccessRange": [ 5 ],
-            "Description": "Bob",
+            "Description": "Dead fauna",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Camp site",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Sign of specific faction",
+            "Link": "Faction Member"
         }
     ]
 }

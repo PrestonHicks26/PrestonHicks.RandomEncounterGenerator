@@ -3,22 +3,17 @@
     "Table": [
         {
             "SuccessRange": [ 1 ],
-            "Description": "Soldiers",
-            "Link": {
-                "Default": "Northern Soldiers"
-            }
+            "Description": "Field of decay",
+            "Link": null
         },
         {
-            "SuccessRange": [ 2, 4 ],
-            "Description": "Wildlife",
-            "Link": {
-                "Forest": "Forest Wildlife",
-                "Mountain": "Mountain Wildlife"
-            }
+            "SuccessRange": [ 2 ],
+            "Description": "Bottomless pit",
+            "Link": null
         },
         {
-            "SuccessRange": [ 5 ],
-            "Description": "Bob",
+            "SuccessRange": [ 3 ],
+            "Description": "Victims of the Ik-Glauwraith",
             "Link": null
         }
     ]

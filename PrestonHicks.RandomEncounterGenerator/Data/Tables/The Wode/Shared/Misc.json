@@ -42,6 +42,13 @@
             "Link": {
                 "Default": "Dreams"
             }
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Clue about known plot thread",
+            "Link": {
+                "Default": null
+            }
         }
     ]
 }
