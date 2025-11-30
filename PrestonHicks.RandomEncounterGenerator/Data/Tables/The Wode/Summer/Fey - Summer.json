@@ -18,6 +18,11 @@
         },
         {
             "SuccessRange": [ 4 ],
+            "Description": "A very shy fey has cooked/baked you a small treat, and left it in your camp without your seeing it.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
             "Description": "Spring Fey",
             "Link": {
                 "Default": "Fey - Spring"

@@ -10,6 +10,16 @@
             "SuccessRange": [ 2 ],
             "Description": "The Feykiller Heresy, aka The Cult of Geni\n - If in Winter Wode, actively patrolling for expeditioners, will attack players on sight\n - If in Summer Wode, got lost, and may or may not attack depending on situation",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Imperial Loyalist (Ex. Deserted in despair at collapse, got lost in Wode and doesn't know about current events, hail mary attempt at finding something to help empire, etc.)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Remains of a soldier of the Prophecy Wars with clue to interesting lore (ex. book that speaks of the Question of the Name, and the different way that Aspects were once viewed)",
+            "Link": null
         }
     ]
 }
