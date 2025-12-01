@@ -5,6 +5,56 @@
             "SuccessRange": [ 1 ],
             "Description": "Soulgem Field - connection to prison of Chrysanthemum Lady",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Swamp of Dreams",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Nyad River",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "(Literally) Babbling Brook",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Cave of Echoes",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Lake of life - Appear 1d6 years younger for 1d6 days",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Party Plateau - all who enter must party",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "Sunlit grotto - super satisfying sun, bathing in it makes you sleepy, gives free short rest",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Valley of eternity - it feels as though it takes weeks to get through, but actually only an hour passes",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 10 ],
+            "Description": "Dreamy breeze",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 11, 13 ],
+            "Description": "Natural feature unique to subregion",
+            "Link": null
         }
     ]
 }

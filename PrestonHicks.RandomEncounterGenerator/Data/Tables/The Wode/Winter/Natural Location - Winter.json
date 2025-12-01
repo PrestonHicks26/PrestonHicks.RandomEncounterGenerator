@@ -5,6 +5,11 @@
             "SuccessRange": [ 1 ],
             "Description": "Pool of water where the viewer's worst nightmares are reflected back at them",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Cave of Whispers",
+            "Link": null
         }
     ]
 }
