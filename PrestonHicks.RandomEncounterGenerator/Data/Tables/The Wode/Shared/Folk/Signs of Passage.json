@@ -34,7 +34,9 @@
         {
             "SuccessRange": [ 7 ],
             "Description": "Sign of specific faction",
-            "Link": "Faction Member"
+            "Link": {
+                "Default": "Faction Member"
+            }
         }
     ]
 }

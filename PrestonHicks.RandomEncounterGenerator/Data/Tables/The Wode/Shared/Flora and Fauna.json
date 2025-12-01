@@ -34,7 +34,9 @@
         {
             "SuccessRange": [ 7 ],
             "Description": "A small shrub with a fragrant, rosemary-like smell, whose leaves are speckled with shimmering, multicolored flakes. Roll a random attribute. This attribute is +2 for the next 1d4 days.",
-            "Link": "D6"
+            "Link": {
+                "Default": "D6"
+            }
         },
         {
             "SuccessRange": [ 8 ],
