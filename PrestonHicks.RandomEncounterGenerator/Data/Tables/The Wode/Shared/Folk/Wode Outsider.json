@@ -5,6 +5,11 @@
             "SuccessRange": [ 1 ],
             "Description": "Artist inspired by the wode - ex. religious devotion to fey, seeking out new pigments, etc.",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Very old human, 100s of years old, placed in some sort of stasis leaving them alive/ undead indefinitely (depending on summer vs winter)",
+            "Link": null
         }
     ]
 }

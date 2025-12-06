@@ -20,6 +20,11 @@
             "SuccessRange": [ 4 ],
             "Description": "Remains of a soldier of the Prophecy Wars with clue to interesting lore (ex. book that speaks of the Question of the Name, and the different way that Aspects were once viewed)",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "A vampire of the Sanguine Circle (looking for miracle cures, hiding from persecution, wode native, etc.)",
+            "Link": null
         }
     ]
 }
