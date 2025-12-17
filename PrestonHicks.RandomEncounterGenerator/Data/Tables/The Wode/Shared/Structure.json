@@ -5,6 +5,11 @@
             "SuccessRange": [ 1 ],
             "Description": "Lifework Hall of a Pre-Lumian elf - a large, temple-like structure created by an individual to house their life's work, whether that be paintings, lore, music, etc. The greatest of these halls contained millenia worth of art, all created by the same elf.",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Tiefling village built atop the ruins of a Twilight elf settlement - same lineage still living there",
+            "Link": null
         }
     ]
 }

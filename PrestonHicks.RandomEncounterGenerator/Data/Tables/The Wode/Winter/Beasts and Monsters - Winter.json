@@ -2,8 +2,58 @@
     "Id": "Beasts and Monsters - Winter",
     "Table": [
         {
-            "SuccessRange": [ 1 ],
-            "Description": "Placeholder",
+            "SuccessRange": [ 1, 10 ],
+            "Description": "CR 1 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 11, 20 ],
+            "Description": "CR 2 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 21, 30 ],
+            "Description": "CR 3 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 31, 40 ],
+            "Description": "CR 4 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 41, 55 ],
+            "Description": "CR 5 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 56, 65 ],
+            "Description": "CR 6 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 66, 75 ],
+            "Description": "CR 7 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 76, 90 ],
+            "Description": "CR 8 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 91, 97 ],
+            "Description": "CR 9 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 98, 99 ],
+            "Description": "CR 10 Encounter",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 100 ],
+            "Description": "CR 15 Encounter",
             "Link": null
         }
     ]

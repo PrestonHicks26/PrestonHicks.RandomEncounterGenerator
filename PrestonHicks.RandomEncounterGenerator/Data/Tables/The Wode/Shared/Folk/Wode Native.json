@@ -5,6 +5,33 @@
             "SuccessRange": [ 1 ],
             "Description": "Tiefling",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Elf",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Human",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Changeling",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5, 6 ],
+            "Description": "Goblin",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Specific character",
+            "Link": {
+                "Default": "Specific Wode Native"
+            }
         }
     ]
 }

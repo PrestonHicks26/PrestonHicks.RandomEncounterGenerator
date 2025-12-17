@@ -5,6 +5,21 @@
             "SuccessRange": [ 1 ],
             "Description": "The Hamalaith, aka The Crafter (See notes in Fey.canvas)",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "The Unfleeting Emotions (See notes in Fey.canvas)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4, 6 ],
+            "Description": "Generic Spring Fey",
+            "Link": null
         }
     ]
 }

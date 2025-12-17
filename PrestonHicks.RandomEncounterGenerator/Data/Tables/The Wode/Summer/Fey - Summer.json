@@ -23,6 +23,41 @@
         },
         {
             "SuccessRange": [ 5 ],
+            "Description": "The Counter - Summer version (see post-it)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Fey once allied with The Chrysanthemum Lady",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Time Loop Experiment Fey, summer version (see post-it)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "The Pale Lady (see post-it)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Morality Play Fey (see post-it)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 10 ],
+            "Description": "Prince of the Cutting Wind (see post-it)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 11 ],
+            "Description": "Generic weak fey",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 12 ],
             "Description": "Spring Fey",
             "Link": {
                 "Default": "Fey - Spring"

@@ -1,0 +1,15 @@
+{
+    "Id": "Specific Wode Native",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Ignili the Death Cleric Tiefling",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Pre-Lumian Elf:\n - 3000 year old elf, born pre Lumus, lived in same dwelling in the wode for millenia\n - Doesn't remember age, or anything pre-Lumus\n - The very slightest visible wrinkles - the sign of a truly ancient elf'",
+            "Link": null
+        }
+    ]
+}

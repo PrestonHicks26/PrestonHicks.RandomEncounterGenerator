@@ -10,6 +10,41 @@
             "SuccessRange": [ 2 ],
             "Description": "Very old human, 100s of years old, placed in some sort of stasis leaving them alive/ undead indefinitely (depending on summer vs winter)",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Agent of the Empire",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Child kidnapped by a fey",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Adult kidnapped by a fey",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Refugee fleeing due their utility to Warlords - etc. Dustsinger, Elixir Alchemist, etc.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Generic Hermit",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Generic Refugee",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "Generic Explorer",
+            "Link": null
         }
     ]
 }

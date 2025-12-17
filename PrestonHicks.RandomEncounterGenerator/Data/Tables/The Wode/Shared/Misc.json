@@ -4,23 +4,17 @@
         {
             "SuccessRange": [ 1 ],
             "Description": "Random common magic item: https://donjon.bin.sh/5e/magic_items",
-            "Link": {
-                "Default": null
-            }
+            "Link": null
         },
         {
             "SuccessRange": [ 2 ],
             "Description": "Random mini dungeon: https://www.drivethrurpg.com/en/browse?keyword=Two%20page%20mini%20delve&keywords=Two%20page%20mini%20delve&x=31&y=6&author=&artist=&pfrom=&pto=",
-            "Link": {
-                "Default": null
-            }
+            "Link": null
         },
         {
             "SuccessRange": [ 3 ],
             "Description": "Random Trinket: https://dnd5e.wikidot.com/trinkets",
-            "Link": {
-                "Default": null
-            }
+            "Link": null
         },
         {
             "SuccessRange": [ 4 ],
@@ -46,9 +40,7 @@
         {
             "SuccessRange": [ 7 ],
             "Description": "Clue about known plot thread",
-            "Link": {
-                "Default": null
-            }
+            "Link": null
         }
     ]
 }
