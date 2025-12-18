@@ -41,6 +41,11 @@
             "SuccessRange": [ 7 ],
             "Description": "Clue about known plot thread",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "Use the random page function in Obsidian. An encounter happens inspired by that page.",
+            "Link": null
         }
     ]
 }

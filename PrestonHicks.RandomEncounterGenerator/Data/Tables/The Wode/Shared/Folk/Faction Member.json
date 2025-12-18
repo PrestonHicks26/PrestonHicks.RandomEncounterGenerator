@@ -35,6 +35,11 @@
             "SuccessRange": [ 7 ],
             "Description": "An imperial cloudcaller who once worked for a feudal lord, driven into the Wode to escape the political machinations of anti-Hanois warlords",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "Imperial Elixir Warden, driven out by mob who blamed them for theft of elixir",
+            "Link": null
         }
     ]
 }
