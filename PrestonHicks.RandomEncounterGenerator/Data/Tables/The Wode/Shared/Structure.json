@@ -10,6 +10,16 @@
             "SuccessRange": [ 2 ],
             "Description": "Tiefling village built atop the ruins of a Twilight elf settlement - same lineage still living there",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Court of the Chrysanthemum Lady (For more details see Locations\\The Wode\\Court of the Chrysanthemum Lady)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4,10 ],
+            "Description": "Generic Location",
+            "Link": null
         }
     ]
 }

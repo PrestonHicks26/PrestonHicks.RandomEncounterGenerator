@@ -32,7 +32,12 @@
             "Link": null
         },
         {
-            "SuccessRange": [ 7 ],
+            "SuccessRange": [ 7,8 ],
+            "Description": "Flora or Fauna related to the current environment (ex. Hell Mice in the region of the Devil Remnants)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 9, 14 ],
             "Description": "Generic Flora/Fauna",
             "Link": {
                 "Default": "Flora and Fauna"

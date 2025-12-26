@@ -22,12 +22,17 @@
             "Link": null
         },
         {
-            "SuccessRange": [ 5, 6 ],
+            "SuccessRange": [ 5 ],
+            "Description": "Demifey",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6, 7 ],
             "Description": "Goblin",
             "Link": null
         },
         {
-            "SuccessRange": [ 7 ],
+            "SuccessRange": [ 8 ],
             "Description": "Specific character",
             "Link": {
                 "Default": "Specific Wode Native"

@@ -5,6 +5,16 @@
             "SuccessRange": [ 1 ],
             "Description": "Soulgem Field - improvise effect on players' souls",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Twilight-haunted location: A deep, dark, hidden place that carries the shadows of Twilight Fey. This far from the Twilight King's tomb, they are totally incorporeal, though they may react to things they see",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3,10 ],
+            "Description": "Improvise Natural Location",
+            "Link": null
         }
     ]
 }

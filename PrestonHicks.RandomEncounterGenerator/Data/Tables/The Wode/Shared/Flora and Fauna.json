@@ -57,6 +57,11 @@
             "SuccessRange": [ 11 ],
             "Description": "Sentient, but harmless plant",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 12 ],
+            "Description": "Foul smelling flower that, when eaten, makes you smell offputting to predators, warding off their attacks",
+            "Link": null
         }
     ]
 }

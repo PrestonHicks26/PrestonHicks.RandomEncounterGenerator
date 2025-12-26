@@ -20,6 +20,11 @@
             "SuccessRange": [ 4 ],
             "Description": "Aftermath of pre-Lumian massacre",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Aftermath of a battle between the forces of The Chrysanthemum Lady and her opponents. \nEx. A soldier frozen in time, filled with arrows\nEx. An entire army of her opponents, frozen in time",
+            "Link": null
         }
     ]
 }
