@@ -4,32 +4,44 @@
         {
             "SuccessRange": [ 1 ],
             "Description": "Tiefling",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 2 ],
             "Description": "Elf",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 3 ],
             "Description": "Human",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 4 ],
             "Description": "Changeling",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 5 ],
             "Description": "Demifey",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 6, 7 ],
             "Description": "Goblin",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 8 ],

@@ -17,9 +17,21 @@
             "Link": null
         },
         {
-            "SuccessRange": [ 4,10 ],
-            "Description": "Generic Location",
+            "SuccessRange": [ 4, 5 ],
+            "Description": "Ancient Ruins",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 6, 7 ],
+            "Description": "Recently abandoned structure",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 8, 9 ],
+            "Description": "Actively inhabited structure, inhabited by...",
+            "Link": {
+                "Default": "Folk"
+            }
         }
     ]
 }

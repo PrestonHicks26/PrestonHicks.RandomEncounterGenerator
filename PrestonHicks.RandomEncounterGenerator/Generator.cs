@@ -48,6 +48,7 @@ namespace PrestonHicks.RandomEncounterGenerator
             GenerateEncounter(_initialRollValue, _regionTable);
         }
 
+        // TODO: Fix so that the encounter generator can handle an empty environment parameter
         public void GenerateEncounter(int rollValue, EncounterTable encounterTable)
         {
             var RolledEncounter = encounterTable.Table[rollValue];
@@ -65,5 +66,35 @@ namespace PrestonHicks.RandomEncounterGenerator
                 _encounterRolled = $"Rolled a {rollValue + 1}, resulting in:\n****{RolledEncounter.Description}****\n";
             }
         }
+
+        //public void GenerateEncounter(int rollValue, EncounterTable encounterTable)
+        //{
+        //    var RolledEncounter = encounterTable.Table[rollValue];
+        //    if (RolledEncounter.Link != null)
+        //    {
+        //        string? value = null;
+        //        var Link = RolledEncounter.Link.TryGetValue("Default", out value) ? value : RolledEncounter.Link[_environment];
+        //        if (Link != null)
+        //        {
+        //            var LinkedTable = _dataLoader.EncounterTableDictionary[Link];
+        //            _resultsRolled += $"Rolled a {rollValue + 1}, resulting in a {RolledEncounter.Description} Encounter, linking to {Link} table.\n";
+        //            var LinkedTableRoll = _rand.Next(LinkedTable.Table.Count);
+        //            GenerateEncounter(LinkedTableRoll, LinkedTable);
+        //        }
+        //        else
+        //        {
+        //            UpdateEncounterRolled(rollValue, RolledEncounter);
+        //        }
+        //    }
+        //    else
+        //    {
+        //        UpdateEncounterRolled(rollValue, RolledEncounter);
+        //    }
+        //}
+
+        //private void UpdateEncounterRolled(int rollValue, Encounter rolledEncounter)
+        //{
+        //    _encounterRolled = $"Rolled a {rollValue + 1}, resulting in:\n****{rolledEncounter.Description}****\n";
+        //}
     }
 }

@@ -1,0 +1,55 @@
+{
+    "Id": "Folk Relationships",
+    "Table": [
+        {
+            "SuccessRange": [ 1 ],
+            "Description": "Betraying... (Optional - use to combine Folk encounters)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "Capturing... (Optional - use to combine Folk encounters)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "Captured by... (Optional - use to combine Folk encounters)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Traveling to see... (Optional - use to combine Folk encounters)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Fleeing... (Optional - use to combine Folk encounters)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Negotiating with... (Optional - use to combine Folk encounters)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Killing... (Optional - use to combine Folk encounters)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "Being killed by... (Optional - use to combine Folk encounters)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Protected by... (Optional - use to combine Folk encounters)",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 10 ],
+            "Description": "Arguing with... (Optional - use to combine Folk encounters)",
+            "Link": null
+        }
+    ]
+}

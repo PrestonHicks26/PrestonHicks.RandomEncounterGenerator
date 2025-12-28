@@ -52,9 +52,16 @@
             "Link": null
         },
         {
-            "SuccessRange": [ 11, 13 ],
+            "SuccessRange": [ 11, 15 ],
             "Description": "Natural feature unique to subregion",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 16, 20 ],
+            "Description": "Natural location - wode in general",
+            "Link": {
+                "Default": "Natural Location"
+            }
         }
     ]
 }

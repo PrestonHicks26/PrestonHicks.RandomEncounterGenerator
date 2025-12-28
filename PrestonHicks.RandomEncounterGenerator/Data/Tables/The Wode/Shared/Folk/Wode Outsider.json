@@ -4,47 +4,72 @@
         {
             "SuccessRange": [ 1 ],
             "Description": "Artist inspired by the wode - ex. religious devotion to fey, seeking out new pigments, etc.",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 2 ],
             "Description": "Very old human, 100s of years old, placed in some sort of stasis leaving them alive/ undead indefinitely (depending on summer vs winter)",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 3 ],
             "Description": "Agent of the Empire",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 4 ],
             "Description": "Child kidnapped by a fey",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 5 ],
+            "Description": "Smuggler",
+            "Link": {
+                "Default": "Folk Relationships"
+            }
+        },
+        {
+            "SuccessRange": [ 6 ],
             "Description": "Adult kidnapped by a fey",
-            "Link": null
-        },
-        {
-            "SuccessRange": [ 6 ],
-            "Description": "Refugee fleeing due their utility to Warlords - etc. Dustsinger, Elixir Alchemist, etc.",
-            "Link": null
-        },
-        {
-            "SuccessRange": [ 6 ],
-            "Description": "Generic Hermit",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 7 ],
-            "Description": "Generic Refugee",
-            "Link": null
+            "Description": "Refugee fleeing due their utility to Warlords - etc. Dustsinger, Elixir Alchemist, etc.",
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 8 ],
+            "Description": "Generic Hermit",
+            "Link": {
+                "Default": "Folk Relationships"
+            }
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Generic Refugee",
+            "Link": {
+                "Default": "Folk Relationships"
+            }
+        },
+        {
+            "SuccessRange": [ 10 ],
             "Description": "Generic Explorer",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         }
     ]
 }

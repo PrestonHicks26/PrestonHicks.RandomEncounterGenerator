@@ -4,42 +4,58 @@
         {
             "SuccessRange": [ 1 ],
             "Description": "Tiefling Clan Ambush\n - Ambush players, who accidentally wandered into their territory\n - aim to take them prisoner and get questions answered\n - one wants them keps alive, another wants them executed just in case",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 2 ],
             "Description": "The Feykiller Heresy, aka The Cult of Geni\n - If in Winter Wode, actively patrolling for expeditioners, will attack players on sight\n - If in Summer Wode, got lost, and may or may not attack depending on situation",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 3 ],
             "Description": "Imperial Loyalist (Ex. Deserted in despair at collapse, got lost in Wode and doesn't know about current events, hail mary attempt at finding something to help empire, etc.)",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 4 ],
             "Description": "Remains of a soldier of the Prophecy Wars with clue to interesting lore (ex. book that speaks of the Question of the Name, and the different way that Aspects were once viewed)",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 5 ],
             "Description": "A vampire of the Sanguine Circle (looking for miracle cures, hiding from persecution, wode native, etc.)",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 6 ],
             "Description": "Circle of the Hunt Druid",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 7 ],
             "Description": "An imperial cloudcaller who once worked for a feudal lord, driven into the Wode to escape the political machinations of anti-Hanois warlords",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         },
         {
             "SuccessRange": [ 8 ],
             "Description": "Imperial Elixir Warden, driven out by mob who blamed them for theft of elixir",
-            "Link": null
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         }
     ]
 }

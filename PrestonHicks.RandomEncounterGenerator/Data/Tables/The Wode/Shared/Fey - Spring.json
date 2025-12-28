@@ -12,12 +12,7 @@
             "Link": null
         },
         {
-            "SuccessRange": [ 3 ],
-            "Description": "",
-            "Link": null
-        },
-        {
-            "SuccessRange": [ 4, 6 ],
+            "SuccessRange": [ 3, 4 ],
             "Description": "Generic Spring Fey",
             "Link": null
         }
