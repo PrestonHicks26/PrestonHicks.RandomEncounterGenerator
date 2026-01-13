@@ -11,8 +11,16 @@
             "Description": "The Unfleeting Emotions (See notes in Fey.canvas)",
             "Link": null
         },
+
         {
-            "SuccessRange": [ 3, 4 ],
+            "SuccessRange": [ 3 ],
+            "Description": "Nearby Folk have offended or harmed this fey in some way. They offer you a reward if you deliver unto them a fate befitting their crime",
+            "Link": {
+                "Default": "Folk"
+            }
+        },
+        {
+            "SuccessRange": [ 4, 8 ],
             "Description": "Generic Spring Fey",
             "Link": null
         }

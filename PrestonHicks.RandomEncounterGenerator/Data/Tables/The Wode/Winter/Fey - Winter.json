@@ -12,9 +12,16 @@
             "Link": null
         },
         {
-            "SuccessRange": [ 11, 15 ],
+            "SuccessRange": [ 11, 14 ],
             "Description": "Fey 3",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 15 ],
+            "Description": "Nearby Folk have offended or harmed this fey in some way. They offer you a reward if you deliver unto them a fate befitting their crime",
+            "Link": {
+                "Default": "Folk"
+            }
         },
         {
             "SuccessRange": [ 16, 20 ],

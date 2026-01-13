@@ -5,6 +5,58 @@
             "SuccessRange": [ 1 ],
             "Description": "Spider Water (See notes in Wode Encounters.txt)",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 2 ],
+            "Description": "A set of marbles are spilled on the ground. Each who sees them must make a DC 15 wis save, or feel compelled to count every single one of them. Anything that delays counting the marbles deals 1d4 psychic damage. Counting every marble uses up 1 point of movement.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 3 ],
+            "Description": "The Somnilaith's Couch: A beautiful couch in the middle of the forest, sat in front of a bush formed into a table, set up with afternoon tea.\n DC 13 wis save or be forced to sleep until the next dawn. You awake with 10 temp HP.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "The glade you're in does not seem to end. Figure out a way out, or spend 2 points of movement.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "A petal of the Daffodil Prince lands on your head.\n - Everyone makes a DC 20 Char save. If everyone fails, you are all possessed by the urge to party for the rest of the day\n - You have -5 on all perception for the rest of the day, and end the day with 2 levels of exhaustion. However, you are also able to sleep through the night without interruption.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "A yellow mist blocks your path. This mist is a cloud of Prince Mycolaith's spores. To avoid it you must choose to enter a different hex.\n - If you walk through the mist, you must make a DC 12 con save. On failure, you are infected with the Prince's spores. It will take high level magic to remove them.\n - The next time the players kill something, its corpse fills with the Prince's spores, creating a Rotbeast (MCDM 304). This player must also save against Forest Rot when this happens.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "The air shimmers with the shards of a broken mind. If you enter it, you must roll on the long term madness table, but in return you learn something important.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 8 ],
+            "Description": "Call of Luna, as you glimpse a daytime moon: DC 12 Chr save, or that night you cannot sleep, for the moon calls to you. You are unable to take a short or long rest.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Call of Prince Daffodil: DC 15 Chr save. You have disadvantage on your next navigation roll to move between hexes. If you fail, you end up in The Daffodil Prince's Eternal Festival",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 10 ],
+            "Description": "Aranolia's' Webs: Nearly invisible, nearly impossible to escape.\n - A large spider touched by The Summer, who puts on 'festivals' for her young by capturing travellers, and waiting for the beasts of The Wode to feast upon them.\n - DC 20 STR check to get out. This save can be rerolled 3 times a day.\n - There may be creative ways to get out.\n - If a combat encounter is rolled while the players are trapped, it happens while they are caught in the webs.\n - When this happens, the spider retracks most of her webs so that the attackers don't get caught as well, and so the players have a chance to escape. In this way, she puts on a 'play'.",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 11,15 ],
+            "Description": "Traps and Hazards - Shared",
+            "Link": {
+                "Default": "Traps and Hazards"
+            }
         }
     ]
 }

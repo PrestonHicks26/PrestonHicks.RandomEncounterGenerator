@@ -15,6 +15,35 @@
             "SuccessRange": [ 3 ],
             "Description": "Magic Parasite Infestation (See notes in Wode Encounters.txt)",
             "Link": null
+        },
+        {
+            "SuccessRange": [ 4 ],
+            "Description": "Stinging vines - vines like jellyfish tentacles that sting prey - this attracts scavengers who eat the dead organism - decaying organism + poop from scavenger fertilizes the plant soil - weird magical effect - some wode folk harvest these vines to use as weapons, fashioned into whips",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 5 ],
+            "Description": "Coral-like animal that filter feeds on magic in the air, host vibrant ecosystems much like actual coral",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 6 ],
+            "Description": "Ambush predator that attaches to tree branches and dangles down poisonous tentacles disguised as vines, trivial to kill, so not an actual fight",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Trap set by a faction",
+            "Link": {
+                "Default": "Faction Member"
+            }
+        },
+        {
+            "SuccessRange": [ 8, 10 ],
+            "Description": "Mundane Hazard (https://imgur.com/P3EfJYB or C:\\Users\\prest\\Documents\\Dungeons and Dragons\\Misc\\Natural Features.png)",
+            "Link": {
+                "Default": "D6"
+            }
         }
     ]
 }

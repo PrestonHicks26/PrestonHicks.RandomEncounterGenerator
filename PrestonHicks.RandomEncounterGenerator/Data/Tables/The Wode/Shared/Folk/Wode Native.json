@@ -37,14 +37,28 @@
             }
         },
         {
-            "SuccessRange": [ 6, 7 ],
+            "SuccessRange": [ 6 ],
+            "Description": "Angulotls",
+            "Link": {
+                "Default": "Folk Relationships"
+            }
+        },
+        {
+            "SuccessRange": [ 7 ],
+            "Description": "Genasi",
+            "Link": {
+                "Default": "Folk Relationships"
+            }
+        },
+        {
+            "SuccessRange": [ 8, 10 ],
             "Description": "Goblin",
             "Link": {
                 "Default": "Folk Relationships"
             }
         },
         {
-            "SuccessRange": [ 8 ],
+            "SuccessRange": [ 11,12 ],
             "Description": "Specific character",
             "Link": {
                 "Default": "Specific Wode Native"

@@ -12,7 +12,14 @@
             "Link": null
         },
         {
-            "SuccessRange": [ 3,10 ],
+            "SuccessRange": [ 3, 5 ],
+            "Description": "Mundane Location (https://imgur.com/P3EfJYB or C:\\Users\\prest\\Documents\\Dungeons and Dragons\\Misc\\Natural Features.png)",
+            "Link": {
+                "Default": "D6"
+            }
+        },
+        {
+            "SuccessRange": [ 6, 10 ],
             "Description": "Improvise Natural Location",
             "Link": null
         }

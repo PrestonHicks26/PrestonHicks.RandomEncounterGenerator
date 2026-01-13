@@ -53,11 +53,23 @@
         },
         {
             "SuccessRange": [ 11 ],
-            "Description": "Generic weak fey",
+            "Description": "The Itch-Imp (see Fey.canvas)",
             "Link": null
         },
         {
             "SuccessRange": [ 12 ],
+            "Description": "Generic weak fey",
+            "Link": null
+        },
+        {
+            "SuccessRange": [ 13 ],
+            "Description": "Nearby Folk have offended or harmed this fey in some way. They offer you a reward if you deliver unto them a fate befitting their crime",
+            "Link": {
+                "Default": "Folk"
+            }
+        },
+        {
+            "SuccessRange": [ 14,18 ],
             "Description": "Spring Fey",
             "Link": {
                 "Default": "Fey - Spring"
