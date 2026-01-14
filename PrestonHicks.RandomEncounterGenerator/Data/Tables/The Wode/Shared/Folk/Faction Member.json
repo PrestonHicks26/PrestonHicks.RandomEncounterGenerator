@@ -56,6 +56,13 @@
             "Link": {
                 "Default": "Folk Relationships"
             }
+        },
+        {
+            "SuccessRange": [ 9 ],
+            "Description": "Agent of one of the major warlords - ex. Bardel slave hunter, Coalition scout, Ik'Glauwraith treasure hunter, etc.",
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         }
     ]
 }

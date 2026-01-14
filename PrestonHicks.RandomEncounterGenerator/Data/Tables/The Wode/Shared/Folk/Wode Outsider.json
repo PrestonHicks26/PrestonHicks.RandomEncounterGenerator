@@ -52,20 +52,27 @@
         },
         {
             "SuccessRange": [ 8 ],
-            "Description": "Generic Hermit",
+            "Description": "Escapee from Bardel's dustsinging warehouses",
             "Link": {
                 "Default": "Folk Relationships"
             }
         },
         {
             "SuccessRange": [ 9 ],
-            "Description": "Generic Refugee",
+            "Description": "Generic Hermit",
             "Link": {
                 "Default": "Folk Relationships"
             }
         },
         {
             "SuccessRange": [ 10 ],
+            "Description": "Generic Refugee",
+            "Link": {
+                "Default": "Folk Relationships"
+            }
+        },
+        {
+            "SuccessRange": [ 11 ],
             "Description": "Generic Explorer",
             "Link": {
                 "Default": "Folk Relationships"
