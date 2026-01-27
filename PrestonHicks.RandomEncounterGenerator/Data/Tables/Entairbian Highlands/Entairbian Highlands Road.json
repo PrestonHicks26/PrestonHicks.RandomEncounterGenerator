@@ -2,19 +2,9 @@
     "Id": "Entairbian Highlands Road",
     "Table": [
         {
-            "SuccessRange": [ 1,4 ],
-            "Description": "Flora",
-            "Link": {
-                "Forest": "Forest Flora",
-                "Mountain": "Mountain Flora"
-            }
-        },
-        {
-            "SuccessRange": [ 5, 6 ],
-            "Description": "Hostile",
-            "Link": {
-                "Default": "Hostile"
-            }
+            "SuccessRange": [ 1 ],
+            "Description": "Bardel Slavecatchers",
+            "Link": null
         }
     ]
 }

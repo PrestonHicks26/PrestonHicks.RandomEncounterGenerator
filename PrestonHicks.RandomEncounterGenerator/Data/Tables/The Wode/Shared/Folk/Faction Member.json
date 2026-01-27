@@ -63,6 +63,13 @@
             "Link": {
                 "Default": "Folk Relationships"
             }
+        },
+        {
+            "SuccessRange": [ 10 ],
+            "Description": "A High Paladin of the Paladins of Rebirth, seeking dead expeditionaries to revive. Given the power of the folk drawn to the Wode, the Order will try to recruit from those who died there. (Possible plot hook: Seeking remains of Mallient expedition to try and revive and recruit them.)",
+            "Link": {
+                "Default": "Folk Relationships"
+            }
         }
     ]
 }
